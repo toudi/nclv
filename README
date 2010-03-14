@@ -1,0 +1,13 @@
+Hello.
+
+this is a very simple listview based on ncurses. i created this because there 
+was no brief tutorial on such subject and i wanted to give it a try ;)
+
+feel free to use it anyway you like.
+
+You can see how it works by compiling demo.cc
+
+just remember: first compile files and then link them:
+
+g++ <file.cc> -o <file.o>
+g++ *.o -o demo -lncurses
